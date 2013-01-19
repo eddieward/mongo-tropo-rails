@@ -1,13 +1,10 @@
 # heroku configuration
 
-defaults: &defaults
-  host: localhost
-
-production:
-  <<: *defaults
-  database: mongo-bongo-rails
-  uri: <%= ENV['MONGOHQ_URL'] %>
-
+ production:
+   sessions:
+     default:
+       database: mongo_bongo_rails
+       uri: <%= ENV['MONGOHQ_URL'] %>
 
 
 # composer configuration
