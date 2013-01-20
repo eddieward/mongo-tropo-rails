@@ -12,7 +12,8 @@ There is also a simple Tropo app to test things out
 
 go to: http://mongo-bongo-rails.herokuapp.com
 
-=== follow these instructions before setting up Mongo-Bongo with Sinatra:
+=== Follow these instructions before setting up Mongo-Bongo with Sinatra.
+
 === commands:
 
                bundle
