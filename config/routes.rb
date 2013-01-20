@@ -1,4 +1,7 @@
 MongoBongoRails::Application.routes.draw do
+  resources :messages
+
+
   authenticated :user do
     root :to => 'home#index'
   end
